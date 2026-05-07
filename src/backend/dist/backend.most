@@ -1,0 +1,27 @@
+// Version: 1.0.0
+type Data__791452850<K, V> =
+  {var count : Nat__490723111; kvs : [var ?(K, V)]};
+type GameSave__169334040 =
+  {
+    completedLevels : [Nat];
+    currentLevel : Nat;
+    lastSaved : Int;
+    relationshipScore : Nat;
+    scores : [LevelScore__507206369]
+  };
+type Internal__8484328<K, V> =
+  {children : [var ?Node__46230540<K, V>]; data : Data__791452850<K, V>};
+type Leaf__809889148<K, V> = {data : Data__791452850<K, V>};
+type LevelScore__507206369 =
+  {levelIndex : Nat; minigameScore : Nat; passed : Bool};
+type Nat__490723111 = Nat__920180692;
+type Nat__920180692 = Nat;
+type Node__46230540<K, V> =
+  {#internal : Internal__8484328<K, V>; #leaf : Leaf__809889148<K, V>};
+actor {
+  stable saves :
+    {
+      var root : Node__46230540<Text, GameSave__169334040>;
+      var size : Nat__490723111
+    }
+};

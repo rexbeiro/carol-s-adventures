@@ -1,0 +1,19 @@
+type LevelScore = 
+ record {
+   levelIndex: nat;
+   minigameScore: nat;
+   passed: bool;
+ };
+type GameSave = 
+ record {
+   completedLevels: vec nat;
+   currentLevel: nat;
+   lastSaved: int;
+   relationshipScore: nat;
+   scores: vec LevelScore;
+ };
+service : {
+  loadGame: () -> (opt GameSave) query;
+  resetGame: () -> (bool);
+  saveGame: (data: GameSave) -> (bool);
+}

@@ -1,0 +1,25 @@
+{
+  "overview": "Carol's Adventures is a story-driven pixel-art arcade game where Carol, an Akasa Air hostess, travels the world through 6 emotional levels to reunite with her boyfriend Joshua in Panama City. Features 3 fully playable mini-games, branching dialogue choices, checkpoint saves, and a dual ending system.",
+  "features": [
+    "3 fully playable arcade mini-games: turbulence dodge, passenger service, emergency landing",
+    "6 story levels from Kolkata to Panama City",
+    "Branching dialogue choices affecting the ending",
+    "Full checkpoint save system with world map progression",
+    "Dual endings based on relationship score",
+    "Synthwave pixel-art visuals with neon pink and blue palette",
+    "Portrait mobile layout optimized for Android",
+    "Interactive phone/text scenes with Joshua between levels"
+  ],
+  "category": "game",
+  "tags": [
+    "game",
+    "pixel-art",
+    "arcade",
+    "story",
+    "mobile",
+    "synthwave",
+    "romance",
+    "adventure"
+  ],
+  "last_updated": "2026-05-06T22:49:36.262Z"
+}
